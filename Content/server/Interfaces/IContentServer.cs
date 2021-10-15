@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace  Content
 {
     public interface IContentServer
