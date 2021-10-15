@@ -1,6 +1,6 @@
 namespace Content
 {
-    class Thread
+    public class Thread
     {
         List<ReceiveMessageData> msgList;
         int threadId;

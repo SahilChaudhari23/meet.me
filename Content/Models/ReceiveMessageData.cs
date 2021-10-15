@@ -1,6 +1,6 @@
 namespace Content
 {
-    class ReceiveMessageData
+    public class ReceiveMessageData
     {
         enum MessageType
         {
