@@ -2,10 +2,11 @@ namespace Content
 {
     public class ContentServerFactory
     {
-        static IContentServer contentServer;
-        static IContentServer getInstance()
+        private static IContentServer contentServer;
+
+        public static IContentServer getInstance()
         {
-            if(contentServer != null)
+            if (contentServer != null)
             {
                 return contentServer;
             }

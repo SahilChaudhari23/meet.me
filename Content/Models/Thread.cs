@@ -5,9 +5,9 @@ namespace Content
 {
     public class Thread
     {
-        List<ReceiveMessageData> msgList;
-        int threadId;
-        int numOfMessages;
-        DateTime creationTime;
+        private List<ReceiveMessageData> msgList;
+        private int threadId;
+        private int numOfMessages;
+        private DateTime creationTime;
     }
 }
